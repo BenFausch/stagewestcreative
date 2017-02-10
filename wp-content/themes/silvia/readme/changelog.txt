@@ -1,0 +1,61 @@
+1.0.8 - May 1, 2016
+* Updated main stylesheets
+  style.css, style.min.css
+* Added VK social profile
+  inc/customizer.php, inc/template-tags.php
+* Updated slicknav, fontawesome and normalize.css
+  assets/
+* Support selective refresh in the Customizer
+  functions.php
+
+1.0.7 - Feb 11, 2016
+* Fixed responsive image size issue
+  functions.php, content.php, content-single.php
+* Updated assets
+  assets/css, assets/js
+* Fixed inconsistently line-endings ( unix )
+  Almost all files
+* Temporary removed retina popup gallery, buggy
+  inc/scripts.php
+* Removed unused code
+  inc/extras.php
+
+1.0.6 - Nov 20, 2015
+* Fixed image thumbnail size issue
+* Fixed schema markup error
+* Improve responsiveness
+* Passed the HTML validator
+
+1.0.5 - Oct 24, 2015
+* Remove `silvia_reset_default_image_sizes` function
+* Missing copyright for Customizer Library & Font Awesome
+* Remove hide Page Comments option
+* Improvement with search form to use HTML5 markup
+
+1.0.4 - Sept 22, 2015
+* Remove favicon option due to built-in Site Icon option
+* Fixed non-breaking text issue
+
+1.0.3 - Sept 21, 2015
+* Fixed error on Customizer page
+* Added documentation link on Customizer page
+* Updated html5shiv.min.js
+* Updated language
+* Updated missing textdomain
+
+1.0.2 - Aug 2, 2015
+* Jetpack social, tiled galleries, infinite scroll and contact form module support
+* Fix conflicted popup gallery with Jetpack carousel module
+* Remove Jetpack sharing from excerpt
+* Polylang support
+
+1.0.1 - July 17, 2015
+* Fix bug when child theme active and WP_DEBUG turned on.
+* Fix error schema.org markup
+* Add a nice little dropdown menu arrow
+* Add background hover color for social icons in Customizer
+* Add option to hide search icon
+* Hide color customizer output when the default value is used
+
+1.0.0 - June 22, 2015
+* Initial release
