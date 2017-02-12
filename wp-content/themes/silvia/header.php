@@ -23,11 +23,7 @@
 
 		<?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
 
-		<div class="site-branding">
-			<div class="wide-container">
-				<?php silvia_site_branding(); ?>
-			</div>
-		</div>
+		
 
 	</header><!-- #masthead -->
 

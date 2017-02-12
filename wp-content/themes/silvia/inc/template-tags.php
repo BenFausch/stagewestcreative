@@ -435,6 +435,8 @@ function silvia_social_links() {
 	$dribbble  = silvia_mod( $prefix . 'dribbble' );
 	$instagram = silvia_mod( $prefix . 'instagram' );
 	$vk        = silvia_mod( $prefix . 'vk' );
+	$vimeo     = silvia_mod( $prefix . 'vimeo' );
+	$youtube   = silvia_mod( $prefix . 'youtube' );
 
 	// Display the data
 	echo '<div class="social-links">';
@@ -458,6 +460,12 @@ function silvia_social_links() {
 		}
 		if ( $vk ) {
 			echo '<a href="' . esc_url( $vk ) . '"><i class="fa fa-vk"></i></a>';
+		}
+		if ( $vimeo ) {
+			echo '<a href="' . esc_url( $vimeo ) . '"><i class="fa fa-vimeo"></i></a>';
+		}
+		if ( $youtube ) {
+			echo '<a href="' . esc_url( $youtube ) . '"><i class="fa fa-youtube"></i></a>';
 		}
 	echo '</div>';
 

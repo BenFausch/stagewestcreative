@@ -130,6 +130,18 @@ function silvia_customizer_register() {
 			'type'         => 'text'
 		);
 
+		$options[$prefix . 'vimeo'] = array(
+			'id'           => $prefix . 'vimeo',
+			'label'        => __( 'Vimeo Profile', 'silvia' ),
+			'section'      => $section,
+			'type'         => 'text'
+		);	
+		$options[$prefix . 'youtube'] = array(
+			'id'           => $prefix . 'youtube',
+			'label'        => __( 'Youtube Profile', 'silvia' ),
+			'section'      => $section,
+			'type'         => 'text'
+		);
 		// Footer Text
 		$section = $prefix . 'footer-text-section';
 
