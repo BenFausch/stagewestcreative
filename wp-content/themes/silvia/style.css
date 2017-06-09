@@ -2090,7 +2090,7 @@ button.mfp-arrow:active, button.mfp-close:active {
 
 #content {
     position: relative;
-    min-height: 40vh;
+    min-height: 30vh;
 }
 
 @media (min-width: 768px) {
